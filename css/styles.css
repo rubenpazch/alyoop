@@ -3,9 +3,16 @@ body {
   padding: 0;
 }
 
-
-
 nav {
   background-color: rgb(187, 243, 174);
   height: 15vh;
+}
+
+.feature-home-info{
+  background-color: hotpink;
+  height:  70vh;
+}
+.feature-home-info h1{
+  background-color: #fff;
+  padding:  25vh 0 25vh 0;
 }
