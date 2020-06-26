@@ -1,108 +1,11 @@
 body {
-  line-height: 1;
-  color: #212121;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  font-size: 12px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-main {
-  width: 100%;
-  height: 100%;
-}
 
-article {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-}
 
-.map-bg {
-  background-image: url('../img/mapcusco.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 100%;
-  height: 1400px;
-}
-
-.annuncement {
-  border-radius: 9px;
-  border-style: dashed;
-  border-width: 1px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-}
-
-.logo-annuncement {
-  background-color: burlywood;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.title-annuncement {
-  background-color: crimson;
-  grid-column-start: 3;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.content-annuncement {
-  background-color: cyan;
-  grid-column-start: 3;
-  grid-column-end: 7;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.home-address {
-  background-color: darkgoldenrod;
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.mail-address {
-  background-color: darkorchid;  
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.phone-number {
-  background-color: darkred;
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
-
-.qr-annuncement {
-  background-color: darkseagreen;
-  grid-column-start: 5;
-  grid-column-end: 7;
-  grid-row-start: 3;
-  grid-row-end: 6;
-}
-
-.logo-annuncement img {
-  width: 90px;
-  height: 50px;
-}
-
-.title-annuncement {
-  font-size: 11px;
-}
-
-.qr-annuncement img {
-  width: 80px;
-  height: 80px;
+nav {
+  background-color: rgb(187, 243, 174);
+  height: 15vh;
 }
