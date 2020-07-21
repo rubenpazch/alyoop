@@ -1,5 +1,5 @@
 main{
-  background-color: hotpink;
+  background-color: white;
 }
 
 body {
@@ -26,4 +26,34 @@ header {
 
 .nav-bar{
   background-color: indianred;
+}
+
+
+section {  
+  height: 70vh;
+}
+
+.split-content{
+  min-height: 40vh;
+  width: 100%;
+  background-color: lightblue;
+  background-image: url(../img/hiking.jpg);
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position-y: 70%;
+}
+
+.picture-profile{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background-color: lightcoral;
+  background-image: url(../img/profile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome {
+  padding-top: 10vh;
 }
