@@ -1,13 +1,20 @@
+main{
+  background-color: hotpink;
+}
+
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-nav {
-  background-color: rgb(187, 243, 174);
-  height: 15vh;
+nav {  
+  height: 10vh;
+  background-color: khaki;
 }
 
+header {  
+ border-bottom: 1px solid red;
+}
 .feature-home-info{
   background-color: hotpink;
   height:  70vh;
@@ -15,4 +22,8 @@ nav {
 .feature-home-info h1{
   background-color: #fff;
   padding:  25vh 0 25vh 0;
+}
+
+.nav-bar{
+  background-color: indianred;
 }
