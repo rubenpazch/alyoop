@@ -57,3 +57,8 @@ section {
 .welcome {
   padding-top: 10vh;
 }
+
+.info-profile{
+  background-color: limegreen;
+  height: 100%;
+}
