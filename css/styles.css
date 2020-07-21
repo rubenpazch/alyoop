@@ -1,5 +1,5 @@
 main{
-  background-color: white;
+  background-color: #4f4f4f;
 }
 
 body {
@@ -14,6 +14,7 @@ nav {
 
 header {  
  border-bottom: 1px solid red;
+ background-color: #4f4f4f;
 }
 .feature-home-info{
   background-color: hotpink;
@@ -53,12 +54,6 @@ section {
   background-size: cover;
   background-position: center;
 }
-
-.welcome {
-  padding-top: 10vh;
-}
-
-.info-profile{
-  background-color: limegreen;
-  height: 100%;
+.skills-cell{
+  border-radius: 25px;
 }
