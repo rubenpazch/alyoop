@@ -1,5 +1,16 @@
+@font-face {
+  font-family: 'ExoItalic';
+  src: url(../fonts/Exo-Italic-VariableFont_wght.ttf);  
+}
+
+@font-face {
+  font-family: 'ExoVariable';
+  src: url(../fonts/Exo-VariableFont_wght.ttf);  
+}
+
 main{
   background-color: #fff;
+
 }
 
 body {
@@ -7,6 +18,7 @@ body {
   margin: 0;
   background-color: #fff;
   color: #000;
+  font-family: 'ExoVariable', serif;
 }
 
 nav {  
@@ -84,4 +96,37 @@ section {
   border-right: 1px solid #e4e4e4;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
+}
+
+
+.recent-work{
+  background-color: violet;  
+  height: 100%;  
+}
+
+.recent-work-content{
+  padding-top: 230px;
+  padding-bottom: 30px;
+}
+
+.show-works{
+  background-color: turquoise;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.works-item{
+  background-color: blue;  
+  max-height: 30vh;
+  min-height: 250px;
+  border: 1px solid #3f3324;
+}
+
+.welcome-content h1{
+  padding-bottom: 30px;
+}
+
+.welcome-content p{
+  padding-bottom: 40px;
 }
